@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Display info about subdomains
+# shellcheck disable=SC2086
+
+
+get_subdomains_info () {
+
+    domain="$1"
